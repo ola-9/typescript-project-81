@@ -15,15 +15,14 @@ jobs:
           cache: 'npm' # ускоряет повторные сборки
       # Ставим зависимости
       - run: make install
-
-      - name: lint
-        run: make lint
-
+      - run: make lint
+      - run: make build
+      
       - name: Test & publish code coverage
         # Publish code coverage on Code Climate
         # https://github.com/paambaati/codeclimate-action
         uses: paambaati/codeclimate-action@v5.0.0
-        # Add Code Climate secret key
+         # Add Code Climate secret key
         env:
           CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
         with:
