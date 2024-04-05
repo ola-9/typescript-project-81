@@ -7,12 +7,16 @@
     "build": "rm -rf ./dist && tsc",
     "dev": "npx nodemon src/index.ts",
     "exec": "npx ts-node ./src/index.ts",
-    "start": "npm run build && node dist/index.js"
+    "start": "npm run build && node dist/index.js",
+    "lint": "npx eslint ."
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.12.4",
+    "@typescript-eslint/eslint-plugin": "^7.5.0",
+    "@typescript-eslint/parser": "^7.5.0",
+    "eslint": "^8.57.0",
     "nodemon": "^3.1.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.4"

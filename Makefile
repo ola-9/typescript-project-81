@@ -10,3 +10,6 @@ exec:
 start:
 	npm run start
 
+lint:
+	npm run lint
+
