@@ -1,0 +1,144 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage lines-valid="73" lines-covered="56" line-rate="0.7670999999999999" branches-valid="9" branches-covered="7" branch-rate="0.7777" timestamp="1712367499725" complexity="0" version="0.1">
+  <sources>
+    <source>/Users/olga/Documents/github/typescript/typescript-project-81</source>
+  </sources>
+  <packages>
+    <package name="src" line-rate="1" branch-rate="0.875">
+      <classes>
+        <class name="FormBuilder.ts" filename="src/FormBuilder.ts" line-rate="1" branch-rate="1">
+          <methods>
+            <method name="formFor" hits="2" signature="()V">
+              <lines>
+                <line number="5" hits="2"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="1" branch="false"/>
+            <line number="2" hits="1" branch="false"/>
+            <line number="3" hits="1" branch="false"/>
+            <line number="4" hits="1" branch="false"/>
+            <line number="5" hits="1" branch="true" condition-coverage="100% (1/1)"/>
+            <line number="6" hits="2" branch="false"/>
+            <line number="7" hits="2" branch="false"/>
+            <line number="8" hits="2" branch="false"/>
+            <line number="9" hits="2" branch="false"/>
+            <line number="10" hits="2" branch="false"/>
+            <line number="11" hits="2" branch="false"/>
+            <line number="12" hits="2" branch="false"/>
+            <line number="13" hits="2" branch="false"/>
+            <line number="14" hits="2" branch="true" condition-coverage="100% (1/1)"/>
+            <line number="15" hits="2" branch="false"/>
+            <line number="16" hits="2" branch="false"/>
+            <line number="17" hits="2" branch="false"/>
+            <line number="18" hits="2" branch="false"/>
+            <line number="19" hits="2" branch="false"/>
+            <line number="20" hits="1" branch="false"/>
+          </lines>
+        </class>
+        <class name="Tag.ts" filename="src/Tag.ts" line-rate="1" branch-rate="0.8332999999999999">
+          <methods>
+            <method name="&lt;instance_members_initializer&gt;" hits="2" signature="()V">
+              <lines>
+                <line number="13" hits="2"/>
+              </lines>
+            </method>
+            <method name="Tag" hits="2" signature="()V">
+              <lines>
+                <line number="18" hits="2"/>
+              </lines>
+            </method>
+            <method name="buildAttributesString" hits="2" signature="()V">
+              <lines>
+                <line number="23" hits="2"/>
+              </lines>
+            </method>
+            <method name="toString" hits="2" signature="()V">
+              <lines>
+                <line number="29" hits="2"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="1" branch="false"/>
+            <line number="2" hits="1" branch="false"/>
+            <line number="3" hits="1" branch="false"/>
+            <line number="4" hits="1" branch="false"/>
+            <line number="5" hits="1" branch="false"/>
+            <line number="6" hits="1" branch="false"/>
+            <line number="7" hits="1" branch="false"/>
+            <line number="8" hits="1" branch="false"/>
+            <line number="9" hits="1" branch="false"/>
+            <line number="10" hits="1" branch="false"/>
+            <line number="11" hits="1" branch="false"/>
+            <line number="12" hits="1" branch="false"/>
+            <line number="13" hits="2" branch="true" condition-coverage="100% (1/1)"/>
+            <line number="14" hits="2" branch="false"/>
+            <line number="15" hits="2" branch="false"/>
+            <line number="16" hits="2" branch="false"/>
+            <line number="17" hits="2" branch="false"/>
+            <line number="18" hits="2" branch="true" condition-coverage="100% (1/1)"/>
+            <line number="19" hits="2" branch="false"/>
+            <line number="20" hits="2" branch="false"/>
+            <line number="21" hits="2" branch="false"/>
+            <line number="22" hits="2" branch="false"/>
+            <line number="23" hits="2" branch="true" condition-coverage="100% (1/1)"/>
+            <line number="24" hits="2" branch="false"/>
+            <line number="25" hits="2" branch="true" condition-coverage="100% (1/1)"/>
+            <line number="26" hits="2" branch="false"/>
+            <line number="27" hits="2" branch="false"/>
+            <line number="28" hits="2" branch="false"/>
+            <line number="29" hits="2" branch="true" condition-coverage="100% (1/1)"/>
+            <line number="30" hits="2" branch="false"/>
+            <line number="31" hits="2" branch="true" condition-coverage="0% (0/1)"/>
+            <line number="32" hits="2" branch="false"/>
+            <line number="33" hits="2" branch="false"/>
+          </lines>
+        </class>
+        <class name="index.ts" filename="src/index.ts" line-rate="1" branch-rate="1">
+          <methods>
+          </methods>
+          <lines>
+            <line number="1" hits="1" branch="false"/>
+            <line number="2" hits="1" branch="false"/>
+            <line number="3" hits="1" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="src.inputs" line-rate="0" branch-rate="0">
+      <classes>
+        <class name="BaseInput.ts" filename="src/inputs/BaseInput.ts" line-rate="0" branch-rate="0">
+          <methods>
+            <method name="(empty-report)" hits="0" signature="()V">
+              <lines>
+                <line number="1" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="true" condition-coverage="0% (0/1)"/>
+            <line number="2" hits="0" branch="false"/>
+            <line number="3" hits="0" branch="false"/>
+            <line number="4" hits="0" branch="false"/>
+            <line number="5" hits="0" branch="false"/>
+            <line number="6" hits="0" branch="false"/>
+            <line number="7" hits="0" branch="false"/>
+            <line number="8" hits="0" branch="false"/>
+            <line number="9" hits="0" branch="false"/>
+            <line number="10" hits="0" branch="false"/>
+            <line number="11" hits="0" branch="false"/>
+            <line number="12" hits="0" branch="false"/>
+            <line number="13" hits="0" branch="false"/>
+            <line number="14" hits="0" branch="false"/>
+            <line number="15" hits="0" branch="false"/>
+            <line number="16" hits="0" branch="false"/>
+            <line number="17" hits="0" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
