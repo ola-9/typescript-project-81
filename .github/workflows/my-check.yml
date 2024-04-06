@@ -28,3 +28,5 @@ jobs:
         with:
           coverageCommand: make test-coverage
           debug: true
+          coverageLocations: ${{github.workspace}}/coverage/cobertura-coverage.xml:cobertura
+
