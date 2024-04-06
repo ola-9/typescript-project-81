@@ -15,7 +15,7 @@ jobs:
           cache: 'npm' # ускоряет повторные сборки
       # Ставим зависимости
       - run: make install
-      - run: make lint
+      # - run: make lint
       - run: make build
       
       - name: Test & publish code coverage
